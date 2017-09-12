@@ -1,26 +1,27 @@
 {
-  "name": "promo3_typescript_client",
-  "version": "0.0.1",
-  "description": "typescript côté client",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kadiytoure/promo3_typescript_client.git"
-  },
-  "keywords": [
-    "typescript"
-  ],
-  "author": "kadiy_toure tourekadiy@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kadiytoure/promo3_typescript_client/issues"
-  },
-  "homepage": "https://github.com/kadiytoure/promo3_typescript_client#readme",
-  "devDependencies": {
-    "ts-loader": "^2.3.7",
-    "webpack": "^3.5.6"
-  }
+    "name": "promo3_typescript_client",
+    "version": "0.0.1",
+    "description": "typescript côté client",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kadiytoure/promo3_typescript_client.git"
+    },
+    "keywords": [
+        "typescript"
+    ],
+    "author": "kadiy_toure tourekadiy@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kadiytoure/promo3_typescript_client/issues"
+    },
+    "homepage": "https://github.com/kadiytoure/promo3_typescript_client#readme",
+    "devDependencies": {
+        "ts-loader": "^2.3.7",
+        "typescript": "^2.5.2",
+        "webpack": "^3.5.6"
+    }
 }

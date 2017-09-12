@@ -3,8 +3,8 @@ module.exports = {
         index: './index.ts'
     },
     output: {
-        filename: '[name].bundle.js',
-        path: './dist/'
+        filename: './dist/[name].bundle.js',
+
     },
     module: {
         rules: [{
@@ -12,5 +12,9 @@ module.exports = {
             use: 'ts-loader',
             exclude: /node_modules/
         }]
-    }
+    },
+    resolve: {
+        extensions: ['.ts', '.js']
+    },
+    devtool: 'inline-source-map'
 }
