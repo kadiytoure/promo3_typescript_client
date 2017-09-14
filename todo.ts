@@ -1,4 +1,4 @@
 import * as $ from 'jquery';
-import {TodoAjax} * './todo-ajax';
+import {TodoAjax} from './todo-ajax';
 
 document.querySelector("#increment").addEventListener

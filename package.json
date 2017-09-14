@@ -2,7 +2,7 @@
     "name": "promo3_typescript_client",
     "version": "0.0.1",
     "description": "typescript côté client",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "build": "webpack --watch"
     },
